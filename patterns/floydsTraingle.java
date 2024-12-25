@@ -2,6 +2,12 @@ package patterns;
 
 public class floydsTraingle {
     public static void main(String args[]) {
+        // Floyd`s pyramid
+        // 1
+        // 2 3
+        // 4 5 6
+        // 7 8 9 10
+        // 11 12 13 14 15
         System.out.println("\n Floyd`s pyramid");
         int n = 5;
         int number = 1;
