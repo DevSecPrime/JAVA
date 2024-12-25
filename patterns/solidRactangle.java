@@ -1,7 +1,5 @@
 package patterns;
 
-import loops.forLoop;
-
 public class solidRactangle {
     public static void main(String args[]) {
         // Solid ractangle

@@ -15,8 +15,6 @@ public class Variables {
         int a = 25;
         int b = 556;
 
-        double price = 45.80;
-
         int sum = a + b;
         System.out.println("Sum is: " + sum);
 
