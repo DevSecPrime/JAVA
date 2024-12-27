@@ -10,8 +10,8 @@ public class traingle_0_1 {
         // 0 1 0 1
         // 1 0 1 0 1
 
-        // i+j = even 1
-        // i+j = odd 0
+        // i+j = even --> 1
+        // i+j = odd --> 0
 
         int n = 5;
         for (int i = 1; i <= n; i++) {
@@ -21,6 +21,7 @@ public class traingle_0_1 {
                     // even print 0
                     System.out.print("1 ");
                 } else {
+                    // odd
                     System.out.print("0 ");
                 }
             }
