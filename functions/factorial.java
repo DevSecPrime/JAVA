@@ -5,12 +5,19 @@ import java.util.Scanner;
 public class factorial {
 
     // function for finding factorial
-    public static int findFactorial(int n) {
+    public static void findFactorial(int n) {
+        // if n < 0
+
+        if (n < 0) {
+            System.out.println("Invalid number");
+            return;
+        }
         int factorial = 1;
         for (int i = n; i >= 1; i--) {
             factorial = factorial * i;
         }
-        return factorial;
+        System.out.println("Factorial of given number" + n + " is: " + factorial);
+        return;
     }
 
     public static void main(String args[]) {
@@ -20,7 +27,7 @@ public class factorial {
         int n = sc.nextInt();
 
         // calling function
-        int factorialNumber = findFactorial(n);
-        System.out.println("Factorial of given number" + n + " is: " + factorialNumber);
+        findFactorial(n);
+
     }
 }
