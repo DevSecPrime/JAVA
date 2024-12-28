@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 public class addTwoNumbers {
 
-    public static void sum(int a, int b) {
-        System.out.print("Sum of " + a + "+" + b + " is :");
-        int add = a + b;
-        System.out.print(add);
-        return;
+    // sum
+    public static int calculateSum(int a, int b) {
+
+        int sum = a + b;
+        return sum;
+    }
+
+    public static int calculateMultiplication(int a, int b) {
+        int product = a * b;
+        return product;
     }
 
     public static void main(String[] args) {
@@ -23,6 +28,9 @@ public class addTwoNumbers {
         int b = sc.nextInt();
 
         // call function
-        sum(a, b);
+        int sum = calculateSum(a, b);
+        int product = calculateMultiplication(a, b);
+        System.out.println("Sum of " + a + " + " + b + " is :" + sum);
+        System.out.println("Product of " + a + " * " + b + " is :" + product);
     }
 }
