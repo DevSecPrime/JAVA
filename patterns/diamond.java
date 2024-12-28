@@ -13,8 +13,8 @@ public class diamond {
         //   *****
         //    ***
         //     *
+        
         // Outer loop
-
         int n = 5;
 
         // upper loop
