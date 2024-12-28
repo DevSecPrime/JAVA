@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class printMyNameFumction {
 
+    //defination of function
     public static void printMyName(String name) {
 
         System.out.println(" your name is: " + name);
