@@ -13,10 +13,10 @@ public class FibonacciSeries {
         int fibonacciNumbers;
         System.out.print("Fibonacci Series: ");
         for (int i = 1; i <= n; i++) {
-            System.out.print(a + " ");
-            fibonacciNumbers = a + b;
-            a = b;
-            b = fibonacciNumbers;
+            System.out.print(a + " ");// 0,1
+            fibonacciNumbers = a + b;// 0 + 1 = 1,1+1 =2
+            a = b;// 1
+            b = fibonacciNumbers;// 1
         }
     }
 
