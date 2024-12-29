@@ -1,6 +1,6 @@
 package loops;
 
-public class forLoop {
+public class Loop {
     public static void main(String args[]) {
 
         // for loop in java
