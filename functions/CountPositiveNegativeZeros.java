@@ -6,6 +6,13 @@ public class CountPositiveNegativeZeros {
     // Write a program to enter the numbers till the user wants and at the end it
     // should display the count of positive, negative and zeros entered.
 
+    // Enter n inputs:5
+    // 0 0 -2 -5 6
+    // The counts
+    // of Zero`s (0`s) is: 2
+    // The counts of negative number is: 2
+    // The counts of positive number is: 1
+
     public static void getCountPositiveNegativeZeros(int n) {
         int number;
         int zerosCount = 0;
