@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class GreatestCommonDevisor {
 
+    // Enter the value of number1: 81
+    // Enter the value of number2: 153
+    // Greatest common devisor of 81 and 153 is: 9
+
     public static int getGreatestCommonDevisor(int number1, int number2) {
         // int gcd = 1;
         // using for loop is not a better approach, for better approach you can use
@@ -33,10 +37,10 @@ public class GreatestCommonDevisor {
         // get input from user of two numbers
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the value of number1 :");
+        System.out.print("Enter the value of number1 :");
         int number1 = sc.nextInt();
 
-        System.out.println("Enter the value of number2 :");
+        System.out.print("Enter the value of number2 :");
         int number2 = sc.nextInt();
 
         // calling function
