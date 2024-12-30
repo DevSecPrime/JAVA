@@ -1,8 +1,8 @@
-package functions;
+
 
 import java.util.Scanner;
 
-public class printMyNameFumction {
+public class printMyNameFunction {
 
     // definition of function
     public static void printMyName(String name) {

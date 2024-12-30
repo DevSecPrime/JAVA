@@ -1,4 +1,4 @@
-package functions; // Replace with your correct package name
+
 
 import java.util.Scanner;
 
