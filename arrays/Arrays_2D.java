@@ -26,7 +26,7 @@ public class Arrays_2D {
         // initialize the array
         int numbers[][] = new int[rows][columns];
 
-        // example: 2x3 array ---> 2 rows and 3 columns
+        // example: 2x3 2D matrix  array ---> 2 rows and 3 columns
         //       |col0|col1| col 2
         // row 0 | 1  | 2  | 3
         // row 1 | 4  | 5  | 6
