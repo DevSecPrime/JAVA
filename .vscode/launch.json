@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TransposeMatrix",
+      "request": "launch",
+      "mainClass": "arrays.TransposeMatrix",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "MatrixElement",
       "request": "launch",
       "mainClass": "arrays.MatrixElement",
