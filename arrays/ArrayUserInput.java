@@ -3,8 +3,8 @@ package arrays;
 import java.util.Scanner;
 
 public class ArrayUserInput {
-    
-    //function to get array
+
+    // function to get array
     public static void checkArray(int size) {
 
         // initialize the array
@@ -12,6 +12,7 @@ public class ArrayUserInput {
 
         Scanner sc = new Scanner(System.in);
         // loop for get input
+        // Note: always start array from 0th index..
         for (int i = 0; i < size; i++) {
             numbers[i] = sc.nextInt();
         }

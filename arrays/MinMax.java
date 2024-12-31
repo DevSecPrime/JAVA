@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MinMax {
 
-    //find min and max element from the array
+    // find min and max element from the array
     // Enter the size of the array:5
     // -2 -6 5 9 2
     // MAX ELEMENT OF THE ARRAY :9
@@ -28,7 +28,7 @@ public class MinMax {
         // for better approach in java
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        for (int i = 1; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length - 1; i++) {
 
             ///check if 0th index value of array is less than min value
             if (numbers[i] < min) {
