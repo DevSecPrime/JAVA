@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoSumProblem",
+      "request": "launch",
+      "mainClass": "leetcode.TwoSumProblem",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "SpiralMatrix",
       "request": "launch",
       "mainClass": "leetcode.SpiralMatrix",
