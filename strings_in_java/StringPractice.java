@@ -56,7 +56,32 @@ public class StringPractice {
         for (int i = 0; i < target.length(); i++) {
             System.out.println(target.charAt(i));
         }
+        //Compare two string
+        String name1 = "Chris";
+        String name2 = "Chris";
+        //3 cases
+        //1: s1<s2 --> returns -ve value
+        //2 : s1>s2 --> returns +ve value
+        //3 : s1==s2 --> returns 0
+        if (name1.compareTo(name2) == 0) {
+            System.out.println("Strings are EQUAL");
+        } else {
+            System.out.println("Strings are NOT EQUAL");
+        }
 
+        //using  == methods --> sometime this method gives false if two string objects are pointing to same memory location
+        //example: this will true 
+        // if (name1 == name2) {
+        //     System.out.println("Strings are EQUAL");
+        // } else {
+        //     System.out.println("Strings are NOT EQUAL");
+        // }
+        //using new  this is return until it`s true
+        // if (new String("prime") == new String("prime")) {
+        //     System.out.println("Strings are EQUAL");
+        // } else {
+        //     System.out.println("Strings are NOT EQUAL");
+        // }
+        //Note: always use compareTo() or equals() method for string comparison in java
     }
-
 }
