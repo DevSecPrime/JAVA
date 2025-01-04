@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReplaceString",
+      "request": "launch",
+      "mainClass": "strings.ReplaceString",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
       "name": "CumulativeStringLength",
       "request": "launch",
       "mainClass": "strings_in_java.CumulativeStringLength",
