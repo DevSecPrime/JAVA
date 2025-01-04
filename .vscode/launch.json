@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringBuilderPractice",
+      "request": "launch",
+      "mainClass": "strings_in_java.StringBuilderPractice",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
       "name": "StringPractice",
       "request": "launch",
       "mainClass": "strings_in_java.StringPractice",
