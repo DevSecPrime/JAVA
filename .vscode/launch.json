@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringPractice",
+      "request": "launch",
+      "mainClass": "strings_in_java.StringPractice",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
       "name": "TwoSumProblem",
       "request": "launch",
       "mainClass": "leetcode.TwoSumProblem",
