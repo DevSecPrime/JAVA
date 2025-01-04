@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class StringPractice {
 
     public static void main(String[] args) {
+        //always remember string are immutable, hence can't be changed once created --> you can't change it if its stored 
 
-        // String concatination: Tony Stark
+        // String concatenation: Tony Stark
         // Please enter your name: DevSec prime
         // Your name is: DevSec prime
         // The index of  "name"in string is: 11
@@ -83,5 +84,17 @@ public class StringPractice {
         //     System.out.println("Strings are NOT EQUAL");
         // }
         //Note: always use compareTo() or equals() method for string comparison in java
+        //substring
+        //subString(startIndex, endIndex)
+        String text = "This is DevSecPrime";
+        System.out.println("Substring: " + text.substring(8, 14)); //prints "DevSec"
+
+        //convert string to  integer
+        String stringNumbers = "582002";
+        int numbers = Integer.parseInt(stringNumbers);
+
+        System.out.println("String is converted to Integer: " + numbers);
+
     }
+
 }
