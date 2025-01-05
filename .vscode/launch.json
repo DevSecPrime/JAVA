@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UpdateBit",
+      "request": "launch",
+      "mainClass": "bitManipulation.UpdateBit",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "ClearBit",
       "request": "launch",
       "mainClass": "bitManipulation.ClearBit",
