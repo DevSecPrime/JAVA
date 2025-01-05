@@ -3,7 +3,7 @@ package leetcode;
 public class TwoSumProblem {
 
     public static void main(String[] args) {
-        int numbers[] = { 1, 5, 6, 8, 6, 9, 11 };
+        int numbers[] = {1, 5, 6, 8, 6, 9, 11};
         int target = 12;
         boolean isPairFound = false;
 

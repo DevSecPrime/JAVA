@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ExtractUsernameFromEmail",
+      "request": "launch",
+      "mainClass": "strings.ExtractUsernameFromEmail",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
+      "name": "ReplaceString",
+      "request": "launch",
+      "mainClass": "strings.ReplaceString",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
+      "name": "CumulativeStringLength",
+      "request": "launch",
+      "mainClass": "strings_in_java.CumulativeStringLength",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "strings_in_java.ReverseString",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
+      "name": "StringBuilderPractice",
+      "request": "launch",
+      "mainClass": "strings_in_java.StringBuilderPractice",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
+      "name": "StringPractice",
+      "request": "launch",
+      "mainClass": "strings_in_java.StringPractice",
+      "projectName": "JAVA_53a90f79"
+    },
+    {
+      "type": "java",
       "name": "TwoSumProblem",
       "request": "launch",
       "mainClass": "leetcode.TwoSumProblem",
