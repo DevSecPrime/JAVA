@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BitManipulationPractice",
+      "request": "launch",
+      "mainClass": "bitManipulation.BitManipulationPractice",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "ExtractUsernameFromEmail",
       "request": "launch",
       "mainClass": "strings.ExtractUsernameFromEmail",
