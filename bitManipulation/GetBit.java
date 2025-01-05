@@ -1,6 +1,6 @@
 package bitManipulation;
 
-public class BitManipulationPractice {
+public class GetBit {
     public static void main(String args[]) {
         // Get the from 3rd (position = 2) from the number n; n = 0101
         // Bit Mask: leftShift 1<<i ==> 1010

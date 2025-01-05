@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SetBit",
+      "request": "launch",
+      "mainClass": "bitManipulation.SetBit",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "BitManipulationPractice",
       "request": "launch",
       "mainClass": "bitManipulation.BitManipulationPractice",
