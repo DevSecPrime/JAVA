@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "sorting.BubbleSort",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "UpdateBit",
       "request": "launch",
       "mainClass": "bitManipulation.UpdateBit",
