@@ -12,9 +12,10 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         // InsertionSort
+        //Time complexity: O(n`2)
         int arr[] = { 7, 8, 3, 1, 2 };
 
-        // outer loop: for(i= 1 -----> arr.length-1)
+        // outer loop: for(i= 1 -----> arr.length-1) 
         for (int i = 1; i < arr.length; i++) {
             int current = arr[i];
             int j = i - 1;
