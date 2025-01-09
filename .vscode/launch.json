@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RecursionTest2",
+      "request": "launch",
+      "mainClass": "recursion.RecursionTest2",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "RecursionTest1",
       "request": "launch",
       "mainClass": "recursion.RecursionTest1",
