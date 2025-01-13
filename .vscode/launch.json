@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RecursionXPowerNLognApproach",
+      "request": "launch",
+      "mainClass": "recursion.RecursionXPowerNLognApproach",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "RecursionXPowerN",
       "request": "launch",
       "mainClass": "recursion.RecursionXPowerN",
