@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RecursionPrintFactorial",
+      "request": "launch",
+      "mainClass": "recursion.RecursionPrintFactorial",
+      "projectName": "java_4b5dfc9c"
+    },
+    {
+      "type": "java",
       "name": "RecursionPrintSum",
       "request": "launch",
       "mainClass": "recursion.RecursionPrintSum",
